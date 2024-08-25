@@ -179,5 +179,7 @@ Else:
 - Display sum of the principal diagonal (d).
 - Display sum of the secondary diagonal (s).
 9.End
+
 ## Conclusion:
+From This experiment We have learned and understand the 2D arrays declaration,initialization and operations such as addition,diagonal addition,multiplication of two Matrices.
 
