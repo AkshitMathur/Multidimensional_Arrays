@@ -51,8 +51,7 @@ for (int i = 0; i < 2; i++) {
 -	Print a newline after each row is completed to separate rows.
 6.	End
 
-To add two matrices and display the result if they have the same dimensions.
-
+# To add two matrices and display the result if they have the same dimensions.
 1.Start
 2.Input Matrix Dimensions:
 - Read number of rows r1 for the first matrix.
@@ -70,7 +69,6 @@ Else:
 - Declare matrix b of size r2 x c2.
 - Declare matrix c of size r1 x c1.
 - Input Matrix Elements:
-
 5.For each element in matrix a:
 - Prompt user to enter the element.
 - Read and store the value in a[i][j].
@@ -85,7 +83,7 @@ Else:
 - For each element in matrix c:
 - Print c[i][j] followed by a space.
 - Print a newline character after each row.
-7.End
+7.End Program
 
 # To multiply two matrices and display the resultant matrix, ensuring that the dimensions of the matrices are compatible for multiplication.
 1.Start
@@ -118,7 +116,7 @@ Else:
 7.Display Result:
 - Display: "The resultant matrix is:"
 - Print each element of C.
-8.End
+8.End Program
 
 # To compute and display the transpose of a 2D matrix based on user input.
 1.Start
@@ -146,7 +144,7 @@ Else:
 - For each column index j from 0 to r-1:
 - Print Tarr[i][j] followed by a space.
 - Print a newline after each row.
-8.End
+8.End Program
 
 # To compute and display the sum of the principal and secondary diagonals of a square matrix based on user input.
 1.Start
@@ -178,7 +176,7 @@ Else:
 8.Display Results:
 - Display sum of the principal diagonal (d).
 - Display sum of the secondary diagonal (s).
-9.End
+9.End Program
 
 ## Conclusion:
 From This experiment We have learned and understand the 2D arrays declaration,initialization and operations such as addition,diagonal addition,multiplication of two Matrices.
