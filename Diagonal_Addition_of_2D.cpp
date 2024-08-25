@@ -2,7 +2,7 @@
 #include <iostream>
 using namespace std;
 int main() {
-    int i, j, r, c,d=0,s=0;//d is diagonal , s is antidigonal
+    int i, j, r, c,d=0,s=0;//d is diagonal , s is antidiagonal
     cout << "Enter number of rows: " << endl;
     cin >> r;
     cout << "Enter number of columns: " << endl;
