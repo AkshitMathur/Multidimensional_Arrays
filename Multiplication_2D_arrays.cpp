@@ -16,13 +16,13 @@ int main() {
     cout << "Enter the number of columns of the second matrix: ";
     cin >> c2;
 
-    // Check if matrix multiplication is possible
+    
     if (c1 != r2) {
         cout << "Matrix multiplication is not possible. Number of columns in the first matrix must equal the number of rows in the second matrix." << endl;
         return 1;
     }
 
-    // Declare matrices
+   
     int A[r1][c1], B[r2][c2], C[r1][c1] = {0};
 
     // Input elements for the first matrix
@@ -34,7 +34,7 @@ int main() {
         }
     }
 
-    // Input elements for the second matrix
+ 
     cout << "Enter elements of the second matrix:" << endl;
     for (int i = 0; i < c2; ++i) {
         for (int j = 0; j < c2; ++j) {
@@ -43,7 +43,7 @@ int main() {
         }
     }
 
-    // Multiply matrices
+  
     for (int i = 0; i < r1; ++i) {
         for (int j = 0; j < c1; ++j) {
             for (int k = 0; k < c1; ++k) {
@@ -52,7 +52,7 @@ int main() {
         }
     }
 
-    // Display the result
+   
     cout << "The resultant matrix is:" << endl;
     for (int i = 0; i < r1; ++i) {
         for (int j = 0; j < c1; ++j) {
